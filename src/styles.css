@@ -14,7 +14,7 @@ p {
   height: 960px;
   padding: 0px 285px 0px;
   box-sizing: border-box;
-  background-color: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgba(14, 7, 25, 1) 0%,
     rgba(16, 12, 35, 1) 59%,
@@ -72,7 +72,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 10%,
     rgba(255, 255, 255, 0.33) 93%
@@ -107,7 +107,7 @@ p {
   gap: 10.31px;
   width: 100%;
   height: 100%;
-  padding: 5.16px 38.16px;
+  padding: 5.159999999999999px 38.160000000000004px;
   border: 4.12px solid rgba(236, 131, 187, 1);
   border-radius: 29.91px;
   box-sizing: border-box;
@@ -141,4 +141,14 @@ p {
 }
 
 .ask-aquestion {
-  color: rgba(255, 
+  color: rgba(255, 255, 255, 1);
+  font-size: 37.62px;
+  line-height: 37.62px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+.send {
+  width: 72.19px;
+  height: 100%;
+}

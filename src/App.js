@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Thumbnail from './Thumbnail'; // Your main component
-import './styles.css'; // Import your CSS for styling
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Thumbnail from './Thumbnail';
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact component={Thumbnail} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Thumbnail />} />
+        {/* Add other routes here as needed */}
+      </Routes>
     </Router>
   );
 }
