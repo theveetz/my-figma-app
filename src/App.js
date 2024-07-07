@@ -1,15 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from './HomePage'; // Example component
-import AboutPage from './AboutPage'; // Example component
+import Thumbnail from './Thumbnail'; // Your main component
+import './styles.css'; // Import your CSS for styling
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/about" component={AboutPage} />
-        {/* Add other routes here */}
+        <Route path="/" exact component={Thumbnail} />
       </Switch>
     </Router>
   );
